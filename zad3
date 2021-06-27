@@ -1,0 +1,2 @@
+bcftools index CPCT02220079.annotated.processed.vcf.gz
+bcftools filter CPCT02220079.annotated.processed.vcf.gz -r 12:112204691-112247789 > output.vcf 
