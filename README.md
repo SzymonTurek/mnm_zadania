@@ -1,1 +1,1 @@
-# mnm_zadania
+# Zadania - rozwiązania
