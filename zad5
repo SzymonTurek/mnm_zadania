@@ -1,0 +1,8 @@
+bcftools view -f PASS CPCT02220079.annotated.processed.vcf.gz > output.vcf -> Po tej komendzie dostaję parse error, podpowiedź dotyczyła użycia tabix index, 
+który zastosowałem jednak nadal występuje błąd parsowania. 
+[W::vcf_parse] Contig '##fileformat=VCFv4.2' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig '##FILTER=<ID=PASS,Description="All filters passed">' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig '##ALT=<ID=NON_REF,Description="Represents any possible alternative allele at this location">' is not defined in the header. (Quick workaround: index the file with tabix.)
+[W::vcf_parse] Contig '##FILTER=<ID=INDEL_LowQualityDepth,Description="QD < 2.0">' is not defined in the header. (Quick workaround: index the file with tabix.)
+[E::vcf_parse] Could not add dummy header for contig '##FILTER=<ID=INDEL_LowQualityDepth,Description="QD < 2.0">'
+Error: VCF parse error
