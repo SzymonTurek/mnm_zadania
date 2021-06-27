@@ -1,6 +1,7 @@
 import collections
 
 def count_char (word):
+  """Return the number of letters occurring more than once."""
   c = collections.Counter(word.lower())
   over_two = {x: count for x, count in c.items() if count >= 2}
 
